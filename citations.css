@@ -1,0 +1,64 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4b6b9c;
+}
+
+.container{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 550px;
+    height: 500px;
+}
+.card{
+    /* border: 2px solid; */
+    height: 80%;
+    background-color: #f8f9fa;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.sep{
+    width: 125px;
+    height: 8px;
+    margin: 40px 0;
+    background-color: #6c757d;
+}
+.citation{
+    font-size: 2em;
+    font-style: italic;
+    font-family: 'Satisfy', curve;
+    text-align: center;
+    color: #ff7c64;
+
+}
+.auteur{
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-size: 1.5em ;
+}
+button{
+    width: 100%;
+    padding: 15px;
+    color: #f8f9fa;
+    background-color:#ff7c64 ;
+    font-size: 1.5em;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background-color: #f8f9fa;
+    color:#ff7c64 ; ;
+}
